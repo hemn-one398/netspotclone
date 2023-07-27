@@ -42,7 +42,7 @@ class MainPageController extends GetxController {
       update(["appbar_bottom_border"]);
     }
 
-    if (position >= currCircleYposition) {
+    if (position >= currCircleYposition - 300) {
       showFirstCircle = true;
       update(["show_widget_up_aniamtion"]);
     }
